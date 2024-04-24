@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* display:flex; */
+   
+}
+
+.container{
+    background-image: url("C:\Users\Ishtehar Khan\Desktop\tutorial\Basic_page\BasicConcept\unnamed.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:90%;
+    max-width: 480px;
+    border-radius: 10px;
+    text-align:center;
+    padding: 40px 35px;
+    margin: 100px auto 0;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    
+}
+input{
+    width:300px;
+    height:24px;
+    border-radius:5px;
+    padding: 5px;
+    border:1.5px solid green;
+    
+}
+#btn{
+    width:100px;
+    height:24px;
+   background:gray;
+   border-radius:5px;
+   margin: 7px 34px;
+   height:32px;
+   
+}
+h3{
+    text-align: 5px left;
+}

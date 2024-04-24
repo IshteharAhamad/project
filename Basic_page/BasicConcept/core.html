@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./core.css">
+    <!-- <script src="./Dom.js"></script> -->
+    <title>basic Practice</title>
+</head>
+<body>
+    <div class="container">
+    <h1 id="uid">  </h1>
+</div>
+<script>
+    const url="https://jsonplaceholder.typicode.com/users"
+const xhr= new XMLHttpRequest();
+xhr.open('GET',url)
+xhr.onreadystatechange= async ()=>{
+    console.log(xhr.readyState);
+    if(xhr.readyState=== XMLHttpRequest.DONE ){
+        const data= await JSON.parse(xhr.responseText);
+        console.log(typeof data)
+        console.log(data.username)
+    }
+}
+xhr.send();
+</script>
+</body>
+    
+</html>

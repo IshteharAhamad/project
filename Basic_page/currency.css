@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(230, 215, 198);
+}
+.container{
+    background-color: rgb(246, 248, 249);
+    padding: 2rem;
+    border-radius: 16px;
+    min-height: 50vh;
+    min-width: 45vh;
+
+}
+
+p{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+form{
+    margin: 2rem 0 1rem 0;
+}
+form select,button,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+}
+form input{
+    border: 1px solid lightgray;
+    font-size: 16px;
+    height: 36px;
+    padding: 0 12px;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px; 
+}
+.dropdown i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.selectcoin img{
+    max-width: 24px;
+}
+.selectcoin{
+    display: flex;
+    width: 7rem;
+    justify-content: center;
+    align-items:center;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+    height: 32px;
+   
+}
+.selectcoin select{
+    font-size: 14px;
+    width: auto;
+    padding: 5px 10px;
+}
+.msg{
+    margin: 2rem 0 2rem 0;
+    
+}
+form button{
+    height: 36px;
+    background-color: chocolate;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
