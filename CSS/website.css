@@ -1,0 +1,15 @@
+*{
+    margin:0%;
+    padding:0%;
+    list-style:none;
+}
+.main{
+    padding:10vw;
+    margin:10vh;
+    width:50vw;
+    height:25vh;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    text-transform: uppercase;
+}
